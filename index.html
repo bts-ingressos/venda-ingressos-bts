@@ -7,20 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script src="main.js"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="img-container">
       <img src="https://media.metrolatam.com/2019/01/16/captura-ea576833f396544daf18ffa98c8e38c0-1200x600.jpg" alt="" class="img-fluid">
       <h1>BTS WORLD TOUR</h1>
       <p>‘LOVE YOURSELF: SPEAK YOURSELF’ IN BRAZIL - Ingressos</p>
     </div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" class="img-centro" style="margin-bot: 10px">
-      Comprar Ingressos
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" class="img-centro">
+      Compre agora
     </button>
     <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
       Ver mais informações
     </button>
+    <p>Quantidade disponível: <span id="qntdIngressos">0</span> ingressos</p>
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
